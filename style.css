@@ -105,10 +105,15 @@ body{
 
 
 
-footer a{
+footer .site-links a{
      font-size: 14px;
      color: gainsboro;
      text-decoration: none;
+}
+
+footer .icon-links a{
+     font-size: 14px;
+     color: grey;
 }
 
 .brand{
@@ -152,9 +157,43 @@ footer h5{
           
      }
 
+     .icon{
+          display: none;
+     }
+
      
 }
 
 .form-control{
      width: 350px!important;
+}
+
+@media(min-width: 768px){
+     .icon-links{
+          margin-left: 11rem;
+     }
+
+     
+
+}
+
+@media(min-width:768px) and (max-width:1555px){
+     .icon{
+         display: none;
+     }
+}
+
+.text-muted{
+     font-family: 'Roboto Mono', monospace;
+     background: rgb(194, 194, 194);
+     font-size: 13px;
+}
+
+.icon{
+     height: 30px;
+     -webkit-filter: invert(100%);
+     position: absolute;
+     right: 3rem;
+     bottom: -32rem;
+     cursor: pointer;
 }
