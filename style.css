@@ -133,3 +133,28 @@ footer a{
 footer h5{
      color: gainsboro;
 }
+
+@media(max-width: 767px){
+     .footer-container>div:first-child{
+          border-right: 0;
+          align-self: center;
+     }
+
+     :root footer input{
+          width:100%!important;
+     }
+
+     :root footer button{
+          width: 100px;
+          align-self: center;
+          padding: 5px;
+          font-size: 1rem;
+          
+     }
+
+     
+}
+
+.form-control{
+     width: 350px!important;
+}
