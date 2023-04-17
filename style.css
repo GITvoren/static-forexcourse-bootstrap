@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+:root{
+     --main: #343b41;
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+html{
+     scroll-behavior: smooth;
+}
+
+body{
+     font-family: 'DM Sans', sans-serif;
+     background: gainsboro;
+}
+
+.navbar{
+     background: #343b41;
+}
+
+.nav-link{
+     color: gainsboro;
+}
+
+.nav-link:hover{
+     color: steelblue;
+}
+
+.navbar-brand>img{
+     border-radius: 5px;
+     position: absolute;
+     top: 8px;
+     left: 0.5rem;
+}
+
+.navbar-toggler{
+     color: rgba(255, 255, 255, 0.55);
+     border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon{
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.hero-wrapper{
+     background: url(./images/herobg2.png) rgba(0, 0, 0, 0.2);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: multiply;
+	background-position: center;
+     height: 72vh;
+}
+
+
+
+.welcome{
+     padding-top: 13rem;
+     font-family: 'Roboto Mono', monospace;
+     color: gainsboro;
+}
+
+
+.article-container{
+     background: white;
+     color: rgb(20, 20, 20);
+     padding: 1rem;
+     border-radius: 10px;
+}
+
+.article-container img{
+     border-radius: 10px;
+}
+
+.text-justify{
+     text-align: justify;
+}
+
+.btn-outline-custom{
+     border-color: steelblue;
+     color: steelblue;
+}
+
+.btn-outline-custom:hover{
+     background: steelblue;
+     color: white;
+}
