@@ -38,7 +38,7 @@ body{
      border-radius: 5px;
      position: absolute;
      top: 8px;
-     left: 0.5rem;
+     left: 1.25rem;
 }
 
 .navbar-toggler{
@@ -79,6 +79,10 @@ body{
      border-radius: 10px;
 }
 
+.sub-container{
+     gap: 2.5rem;
+}
+
 .text-justify{
      text-align: justify;
 }
@@ -91,4 +95,41 @@ body{
 .btn-outline-custom:hover{
      background: steelblue;
      color: white;
+}
+
+
+.footer-container{
+     background: var(--main);
+     padding: 4rem 3rem;
+}
+
+
+
+footer a{
+     font-size: 14px;
+     color: gainsboro;
+     text-decoration: none;
+}
+
+.brand{
+     font-family: 'Roboto Mono', monospace;
+}
+
+.btn-outline-custom2:hover{
+     border-color: steelblue;
+     color: steelblue;
+     background: white;
+}
+
+.btn-outline-custom2{
+     background: steelblue;
+     color: white;
+}
+
+.footer-container>div:first-child{
+     border-right: 1px solid grey;
+}
+
+footer h5{
+     color: gainsboro;
 }
