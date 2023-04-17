@@ -62,7 +62,7 @@ body{
 
 
 .welcome{
-     padding-top: 13rem;
+     padding-top: 15rem;
      font-family: 'Roboto Mono', monospace;
      color: gainsboro;
 }
@@ -196,4 +196,11 @@ footer h5{
      right: 3rem;
      bottom: -32rem;
      cursor: pointer;
+}
+
+
+@media(max-height:800px){
+     .welcome{
+          padding-top: 10rem;    
+     }
 }
