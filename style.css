@@ -110,6 +110,9 @@ footer .site-links a{
      color: gainsboro;
      text-decoration: none;
 }
+footer .site-links a:hover{
+     color: steelblue;
+}
 
 footer .icon-links a{
      font-size: 14px;
@@ -170,7 +173,7 @@ footer h5{
 
 @media(min-width: 768px){
      .icon-links{
-          margin-left: 11rem;
+          margin-left: 13rem;
      }
 
      
