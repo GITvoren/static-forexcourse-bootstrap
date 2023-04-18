@@ -323,3 +323,16 @@ body::-webkit-scrollbar {
 .font-title{
      font-family: 'Roboto Mono', monospace;
 }
+
+.text-muted-custom{
+     color: #6c757d !important;
+   }
+
+::placeholder {
+     color: rgb(212, 212, 212)!important;
+     font-size: 14px;
+}
+
+.contact-icons a{
+     color: grey;
+}
