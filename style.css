@@ -269,3 +269,35 @@ body::-webkit-scrollbar {
 .img-fluid{
      border-radius: 5px 5px 0 0;
 }
+
+.text-custom{
+     color: steelblue!important;
+}
+
+.white-no-border-top{
+     background-color: white!important;
+     border-radius: 5px;
+     border-bottom: 1px solid rgba(233, 233, 233, 0.884);
+     border-right: 1px solid rgba(233, 233, 233, 0.884);
+     border-left: 1px solid rgba(233, 233, 233, 0.884);
+}
+
+.white-no-border2{
+     padding-left: 0;
+     padding-right: 0;
+}
+
+.nav-tabs{
+     border: 1px solid rgba(233, 233, 233, 0.884);
+    
+}
+
+.img-strategy{
+     border-radius: 10px;
+     height: 400px;
+     width: 600px;
+}
+
+.container{
+     min-height: 120vh;
+}
