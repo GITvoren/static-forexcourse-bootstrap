@@ -283,6 +283,10 @@ body::-webkit-scrollbar {
      border-radius: 5px 5px 0 0;
 }
 
+.img-fix{
+     width: 100%;
+}
+
 .text-custom{
      color: steelblue!important;
 }
