@@ -167,6 +167,10 @@ footer h5{
           display: none;
      }
 
+     .reference{
+          display: none;
+     }
+
      
 }
 
@@ -335,4 +339,9 @@ body::-webkit-scrollbar {
 
 .contact-icons a{
      color: grey;
+}
+
+.reference{
+     color: grey;
+     font-size: 12px;
 }
