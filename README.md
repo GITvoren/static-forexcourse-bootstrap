@@ -1,7 +1,7 @@
 # Forex Trading Guide (static website)
 This website is built mainly using HTML, CSS, and Bootstrap. I hosted it on [Vercel](https://vercel.com/)
 
-[Live Demo](https://fxdotnotes.vercel.app/) :point-left:
+[Live Demo](https://fxdotnotes.vercel.app/) :point_left:
 
 ## Features
 - Basic Fundamental Guides
