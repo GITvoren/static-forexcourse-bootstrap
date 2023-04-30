@@ -1,6 +1,3 @@
-# static-forexcourse-bootstrap
-Forex Trading Beginner's Guide (Bootstrap) --features: 1.)Basic Fundamental Guides 2.) Basic Strategies  --coming soon --> Intermediate Level Guide + Strategy
-
 # Forex Trading Guide (static website)
 This website is built using HTML, CSS, and Bootstrap. I hosted it on [Vercel](https://vercel.com/)
 
